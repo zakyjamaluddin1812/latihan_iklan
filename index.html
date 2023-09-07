@@ -76,18 +76,20 @@
                     <p class="card-text">Deskripsi proyek 1.</p>
                 </div>
             </div>
-            <div class="card">
-                <img src="https://picsum.photos/300/200" class="card-img-top" alt="Proyek 2">
-                <div class="card-body">
-                    <h5 class="card-title">Proyek 2</h5>
-                    <p class="card-text">Deskripsi proyek 2.</p>
-                </div>
-            </div>
+            <button id="hubungi-kami-button">Hubungi Kami</button>
+
+
+
         </div>
     </div>
 </div>
 
 <!-- Menghubungkan dengan JavaScript Bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+    <script>
+document.getElementById("hubungi-kami-button").addEventListener("click", function() {
+  fbq('track', 'KlikHubungiKami');
+});
+</script>
 </body>
 </html>
