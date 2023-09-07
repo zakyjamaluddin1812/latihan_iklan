@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Saya</title>
+    <!-- Menghubungkan dengan CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Profil Saya</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Beranda</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Tentang Saya</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Portofolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Kontak</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Header -->
+<header class="jumbotron">
+    <div class="container text-center">
+        <!-- Gambar acak dari Lorem Picsum -->
+        <img src="https://picsum.photos/200/200" alt="Profil Saya" class="img-fluid rounded-circle" width="200">
+        <h1 class="display-4">John Doe</h1>
+        <p class="lead">Web Developer</p>
+    </div>
+</header>
+
+<!-- Konten -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Tentang Saya</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet libero et ex volutpat bibendum. Proin consectetur fringilla hendrerit. Curabitur et ligula in turpis tincidunt tincidunt nec non arcu.</p>
+        </div>
+        <div class="col-md-6">
+            <h2>Portofolio</h2>
+            <div class="card">
+                <img src="https://picsum.photos/300/200" class="card-img-top" alt="Proyek 1">
+                <div class="card-body">
+                    <h5 class="card-title">Proyek 1</h5>
+                    <p class="card-text">Deskripsi proyek 1.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/300/200" class="card-img-top" alt="Proyek 2">
+                <div class="card-body">
+                    <h5 class="card-title">Proyek 2</h5>
+                    <p class="card-text">Deskripsi proyek 2.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Menghubungkan dengan JavaScript Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
